@@ -12,6 +12,7 @@ async function run(): Promise<void> {
             return;
         }
 
+
         // Validate inputs, this can cause task failure
         if (!utils.isValidEvent()) {
             utils.logWarning(
